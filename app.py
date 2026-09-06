@@ -9,7 +9,7 @@ from torch_geometric.explain import Explainer, GNNExplainer
 from rdkit import Chem
 from rdkit.Chem import AllChem
 import py3Dmol
-import matplotlib.cm as cm
+import matplotlib as mpl
 import matplotlib.colors as mcolors
 
 # --- Page Setup ---
@@ -87,7 +87,7 @@ with col1:
         mol_block = Chem.MolToMolBlock(mol)
 
         # Render with py3Dmol
-        color_map = cm.get_cmap('plasma')
+        color_map = mpl.colormaps['plasma']
         view = py3Dmol.view(width=750, height=500)
         view.addModel(mol_block, 'mol')
         
