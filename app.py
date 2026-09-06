@@ -88,7 +88,7 @@ with col1:
 
         # Render with py3Dmol
         color_map = mpl.colormaps['plasma']
-        view = py3Dmol.view(width=750, height=500)
+        view = py3Dmol.view(width="100%", height=500)
         view.addModel(mol_block, 'mol')
         
         # Bright silver backbone
