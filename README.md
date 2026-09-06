@@ -1,10 +1,17 @@
 # PharmacoGraph-3D: Interpretable Drug-Target Affinity Prediction
 
-> **Live Demo:** [Insert Link to Streamlit App Here] | **Dataset:** [Davis Benchmark](https://tdcommons.ai/multi_pred_tasks/dti/)
+<div align="center">
+  
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit)](https://pharmacograph-suxvsetk8axdzq5farzkwo.streamlit.app/)
+[![Dataset](https://img.shields.io/badge/Dataset-Davis%20Benchmark-blue?style=for-the-badge)](https://tdcommons.ai/multi_pred_tasks/dti/)
 
-![PharmacoGraph-3D Heatmap Visualization](https://github.com/user-attachments/assets/8448cb5d-897a-4489-a567-9860190bfa41)
+<br><br>
 
-*(Caption: GNNExplainer highlights the functional hotspots of Imatinib driving target binding)*
+<img src="https://github.com/user-attachments/assets/8448cb5d-897a-4489-a567-9860190bfa41" alt="PharmacoGraph-3D Heatmap Visualization" />
+<br>
+<em>(Caption: GNNExplainer highlights the functional hotspots of Imatinib driving target binding)</em>
+
+</div>
 
 ### Overview
 PharmacoGraph-3D is an interactive computational biology tool that predicts the binding affinity of small molecule drugs to protein targets. Rather than functioning as a "black box," this project utilizes **Explainable AI (XAI)** to identify and visualize the specific atomic substructures (pharmacophores) driving the model's predictions in an interactive 3D environment.
