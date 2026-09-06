@@ -76,7 +76,7 @@ with col1:
             model_config=dict(mode='regression', task_level='graph', return_type='raw'),
         )
         explanation = explainer(x_float, pyg_graph.edge_index, batch=dummy_batch)
-        scores = explanation.node_mask.detach().cpu().numpy()
+        scores = explanation.node_mask.detach().cpu().numpy().flatten()
         scores = (scores - scores.min()) / (scores.max() - scores.min() + 1e-8)
 
         # Build 3D Conformer with RDKit
