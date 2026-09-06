@@ -128,4 +128,3 @@ with col2:
     )
     st.markdown("---")
     st.markdown("**Dataset:** Davis Benchmark")
-    st.markdown("**Backbone:** 2-Layer Graph Convolutional Network (GCN)")
